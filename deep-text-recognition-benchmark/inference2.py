@@ -39,7 +39,7 @@ def load_model(model_path='best_accuracy.pth'):
     opt.num_fiducial=20
     opt.output_channel=512
     opt.rgb=True
-    opt.saved_model='saved_models/TPS-ResNet-BiLSTM-Attn-Seed1111/best_accuracy.pth'
+    opt.saved_model=model_path
     opt.sensitive=False
     opt.workers=4
 
