@@ -16,7 +16,7 @@ import torchvision.transforms as transforms
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-def img_to_string(img, model_path='saved_models/TPS-ResNet-BiLSTM-Attn-Seed1111/best_accuracy.pth'):
+def img_to_string(img, model_path='./best_accuracy.pth'):
   """
   im: str (path) or PIL image  
 
